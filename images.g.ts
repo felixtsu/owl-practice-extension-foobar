@@ -3,7 +3,25 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-
+            case "image1":
+            case "dragonfly":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . 1 1 1 1 1 1 . . . . . . 
+. . . . 1 8 1 1 8 1 . . . . . . 
+. . 8 8 8 1 1 1 1 8 8 8 . . . . 
+. 8 9 9 9 8 1 1 8 9 9 9 8 . . . 
+8 9 9 . 9 9 1 1 9 9 . 9 9 8 . . 
+. 8 9 9 9 8 f f 8 9 9 9 8 . . . 
+. . 8 8 8 . 1 1 . 8 8 8 . . . . 
+. . . . . . f f . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . f f . . . . . . . . 
+. . . . . . 1 1 . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
         }
         return null;
     })

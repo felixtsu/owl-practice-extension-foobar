@@ -67,3 +67,9 @@ for (let value of tiles.getTilesByType(assets.tile`myTile`)) {
     treeSprite.y += -8
     adventure.dropAppleFromTree(treeSprite)
 }
+game.onUpdateInterval(1000, function () {
+    adventure.spawnDragonfly(tiles.getTilesByType(assets.tile`pond`)._pickRandom())
+})
+forever(function () {
+    duckSprite.follow(adventure.freshDragonfly())
+})

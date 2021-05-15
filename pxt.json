@@ -1,5 +1,5 @@
 {
-    "name": "Owl.Practice.Extension>.Foobar",
+    "name": "Owl.Practice.Extension.Foobar.ReferenceImplementation",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -27,5 +27,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
